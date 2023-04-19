@@ -1,0 +1,13 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id ="header">
+            <app-inpfield [placeholder]="'name'"(getval)="Name($event)"></app-inpfield>
+            <app-inpfield  [placeholder]="'discription'"(getval)="Discription($event)"> </app-inpfield>
+            <button type="button"  (click)="addfunc()">add</button>
+        </div>
+    </body>
+</html>
+

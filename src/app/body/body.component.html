@@ -1,0 +1,10 @@
+<h2 id="a"><u>list of tasks</u></h2>
+<div>
+    <ol>
+        <li *ngFor="let c of get; let i=index;">
+        
+            <span>{{c.name}} - {{c.discription}} </span>
+            <button (click)="remove(i)">del</button>
+        </li>
+    </ol>
+</div>
